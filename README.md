@@ -1,6 +1,6 @@
 # Tim25-Fluffy
 
-Èlanovi tima:
-1. Ahmed Oruè
-2. Dajana Mojsiloviæ
+Clanovi tima:
+1. Ahmed Oruc
+2. Dajana Mojsilovic
 3. Rijad Pedljak
