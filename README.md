@@ -1,4 +1,4 @@
-# Tim25-Fluffy
+# Tim25-Fluffy  🦄
 
 Clanovi tima:
 1. Ahmed Oruc
