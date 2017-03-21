@@ -11,7 +11,7 @@
 Aplikacija nudi korisniku jednostavnu i kompletnu organizaciju putovanja na neku od ponudjenih destinacija. 
 
 #### Procesi:
-- Korisnik vrsi odabir jedne od ponudjenih destinacija, a nakon toga se otvara stranica sa opstim informacijama o destinaciji. Ako se korisnik odluci za tu destinaciju, bira nacin prevoza i termin putovanja. Obracunava se cijena putovanja i korisnik bira nacin placanja.
+Korisnik vrsi odabir jedne od ponudjenih destinacija, a nakon toga se otvara stranica sa opstim informacijama o destinaciji. Ako se korisnik odluci za tu destinaciju, bira nacin prevoza i termin putovanja. Obracunava se cijena putovanja i korisnik bira nacin placanja.
 
 #### Funkcionalnosti:
 
