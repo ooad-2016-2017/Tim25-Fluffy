@@ -21,6 +21,9 @@ Ukoliko se koristi guest access korisnik vrsi odabir jedne od ponudjenih destina
 * Online placanje
 * Mogućnost dodavanja slika u galeriju za određenu destinaciju
 * Mogućnost davanja feedbacka za destinaciju
+* GPS
+* Pregled turistickih atrakcija na destinaciji na kojoj se korisnik trenutno nalazi
+* Countdown do polaska na putovanje prilikom korisnickog logina
 
 ## Akteri:
 * Administrator: ima mogucnost brisanja i dodavanja ostalih aktera; 
