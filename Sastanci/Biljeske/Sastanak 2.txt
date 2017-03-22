@@ -1,5 +1,5 @@
-##Sastanak 2
-* **Datum sastanka:** 21.03.2017.g
-* **Lokacija sastanka:** MyFace Vilsonovo
-* Sastanku prisustvovali svi clanovi
-* **Razlog sastanka:** Projektni zadatak 2
+Sastanak 2
+Datum sastanka: 21.03.2017.g
+Lokacija sastanka: MyFace Vilsonovo
+Sastanku prisustvovali svi clanovi
+Razlog sastanka: Projektni zadatak 2
