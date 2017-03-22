@@ -26,9 +26,9 @@ Ukoliko se koristi guest access korisnik vrsi odabir jedne od ponudjenih destina
 * Countdown do polaska na putovanje prilikom korisnickog logina
 
 ## Akteri:
-* Administrator: ima mogucnost brisanja i dodavanja ostalih aktera; 
-* Uposlenik: ima mogucnost dodavanja i brisanja destinacija; mogucnost dodavanja i brisanja fakultativnih izleta u okviru ponudjenih destinacija; 
-* Turisticki vodic: ima mogucnost pregleda korisnika koji su prijavljeni na izlete na kojima je on vodic;
-* Korisnik: ima mogucnost pregleda i odabira destinacija na koje zeli putovati, kao i fakultativnih izleta u okvir u destinacija;
+1. **Administrator**: ima mogucnost brisanja i dodavanja ostalih aktera; 
+2. **Uposlenik**: ima mogucnost dodavanja i brisanja destinacija; mogucnost dodavanja i brisanja fakultativnih izleta u okviru ponudjenih destinacija; 
+3. **Turisticki vodic**: ima mogucnost pregleda korisnika koji su prijavljeni na izlete na kojima je on vodic;
+4. **Korisnik**: ima mogucnost pregleda i odabira destinacija na koje zeli putovati, kao i fakultativnih izleta u okvir u destinacija;
 
 
