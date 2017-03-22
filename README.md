@@ -7,15 +7,22 @@
 2. Dajana Mojsilovic
 3. Rijad Pedljak
 
-#### Opis teme:
-Aplikacija nudi korisniku jednostavnu i kompletnu organizaciju putovanja na neku od ponudjenih destinacija. 
+## Opis teme:
+Aplikacija Turisticka agencija je namijenjena za organizacije putovanja na turisticki atraktivne lokacije. Korisniku nudi da putem par klikova organizuje putovanje na neke od ponudjenih destinacija. Osim sto aplikacija korisniku omogucava da na vrlo jednostavan nacin dodje do karte za putovanje, ona i omogucava uposlenicama jednostavan rad. 
 
-#### Procesi:
-Korisnik vrsi odabir jedne od ponudjenih destinacija, a nakon toga se otvara stranica sa opstim informacijama o destinaciji. Ako se korisnik odluci za tu destinaciju, bira nacin prevoza i termin putovanja. Obracunava se cijena putovanja i korisnik bira nacin placanja.
+## Procesi:
+Ukoliko se koristi guest access korisnik vrsi odabir jedne od ponudjenih destinacija, a nakon toga se otvara stranica sa opstim informacijama o destinaciji. Ako se korisnik odluci za tu destinaciju, bira nacin prevoza i termin putovanja. Obracunava se cijena putovanja i korisnik bira nacin placanja. Nakon toga, ukoliko korisnik nije prijavljen, zahtjeva se njegova prijava ili registracija.
 
-#### Funkcionalnosti:
+## Funkcionalnosti:
+* Dodavanje i brisanje korisnika, vodica i uposlenika (admin only)
+* Dodavanje i brisanje destinacija
+* Odabir destinacije na koju korisnik zeli putovati
+* Odabir nacina prijevoza, zeljenog vremena ostajanja i datuma polaska
+* Online placanje
+* Mogućnost dodavanja slika u galeriju za određenu destinaciju
+* Mogućnost davanja feedbacka za destinaciju
 
-#### Akteri:
+## Akteri:
 * Administrator: ima mogucnost brisanja i dodavanja ostalih aktera; 
 * Uposlenik: ima mogucnost dodavanja i brisanja destinacija; mogucnost dodavanja i brisanja fakultativnih izleta u okviru ponudjenih destinacija; 
 * Turisticki vodic: ima mogucnost pregleda korisnika koji su prijavljeni na izlete na kojima je on vodic;
