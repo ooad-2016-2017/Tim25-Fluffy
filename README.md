@@ -12,7 +12,7 @@ Aplikacija Turisticka agencija nudi korisnicima da u svega nekoliko klikova dobi
 
 ## Procesi:
 * Ukoliko se koristi guest access korisnik vrsi odabir jedne od ponudjenih destinacija, a nakon toga se otvara stranica sa opstim informacijama o destinaciji. Ako se korisnik odluci za tu destinaciju, bira nacin prevoza i termin putovanja. Obracunava se cijena putovanja i korisnik bira nacin placanja. Zatim, ukoliko korisnik nije prijavljen, zahtjeva se njegova prijava ili registracija, nakon cega se vrsi naplata.
-* Ukoliko se koristi admin access, prijavljeni ima mogucnost dodavanja i brisanja uposlenika i vodica, kao i editovanja informacija o clanovima
+* Ukoliko se koristi admin access, prijavljeni ima mogucnost dodavanja i brisanja uposlenika i vodica
 * Ukoliko je prijavljeni turisticki vodic, ima mogucnost pregleda destinacija koje su mu dodijeljene, pregleda liste putnika na svakoj njegovoj destinaciji kao i mogucnost trackinga putnika pomocu GPS-a
 * Ukoliko je prijavljeni uposlenik, ima mogucnost dodavanja i brisanja destinacija, pregled prijavljenih putnika, kontaktiranje putnika
 
