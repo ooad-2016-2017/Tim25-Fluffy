@@ -1,4 +1,6 @@
 ﻿# Tim25-Fluffy  🦄
+ 
+![alt tag]( https://sd.keepcalm-o-matic.co.uk/i/keep-calm-and-love-fluffy-unicorns-8.png )
 
 #### Tema: Turisticka agencija
 
@@ -35,3 +37,4 @@ Aplikacija Turisticka agencija nudi korisnicima da u svega nekoliko klikova dobi
 4. **Korisnik**: ima mogucnost pregleda i odabira destinacija na koje zeli putovati, kao i fakultativnih izleta u okvir u destinacija;
 
 
+ 
