@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="c74b831a-cacd-460a-ba74-e8c5899e35a8"
+    Name="5c408ab8-fcb9-48af-bf73-93da655d294e"
     Publisher="CN=oruc_"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="c74b831a-cacd-460a-ba74-e8c5899e35a8" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="5c408ab8-fcb9-48af-bf73-93da655d294e" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>TuristickaAgencija</DisplayName>
