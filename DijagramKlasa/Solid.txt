@@ -1,0 +1,9 @@
+1.Princip pojedinacne odgovornosti
+
+2.Otvoreno zatvoren princip 
+
+3. Liskov princip zamjene 
+
+4.Princip inverzije ovisnosti 
+
+5.Princip izoliranja interfejsa
