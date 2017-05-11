@@ -20,11 +20,16 @@ namespace TuristickaAgencija
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Sign_up : Page
+    public sealed partial class SignUp : Page
     {
-        public Sign_up()
+        public SignUp()
         {
             this.InitializeComponent();
+        }
+
+        private void AppBarButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
