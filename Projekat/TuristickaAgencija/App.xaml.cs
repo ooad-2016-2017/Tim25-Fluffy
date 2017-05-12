@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using TuristickaAgencija.View;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
@@ -67,7 +68,7 @@ namespace TuristickaAgencija
                     // When the navigation stack isn't restored navigate to the first page,
                     // configuring the new page by passing required information as a navigation
                     // parameter
-                    rootFrame.Navigate(typeof(SignUp), e.Arguments);
+                    rootFrame.Navigate(typeof(UnosPodataka), e.Arguments);
                 }
                 // Ensure the current window is active
                 Window.Current.Activate();
