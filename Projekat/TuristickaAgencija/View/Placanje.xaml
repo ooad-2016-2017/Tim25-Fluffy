@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="TuristickaAgencija.View.Placanje"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TuristickaAgencija.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="295" Width="615">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <CommandBar Grid.Row="0" Grid.Column="3" Margin="0,0,59,0">
+            <AppBarButton Icon="Back" Label="Back" Click="AppBarButton_Click"></AppBarButton>
+        </CommandBar>
+        <TextBlock x:Name="popust" Text="Vas popust iznosi: 0%" Grid.Row="2" Grid.Column="0" MinWidth="100" Margin="5"></TextBlock>
+        <TextBlock Text="Kako biste ostvarili dodatnih 5% popusta, " Grid.Row="3" Grid.Column="0" MinWidth="100" Margin="5"></TextBlock>
+        <HyperlinkButton Content="igrajte nasu igricu" Click="HyperlinkButton_Click" Grid.Row="3" Grid.Column="1" ></HyperlinkButton>
+        <TextBlock Text="Koju vrstu placanja zelite: " Grid.Row="4" Grid.Column="0" MinWidth="100" Margin="5"></TextBlock>
+        <StackPanel Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="5" Orientation="Horizontal">
+            <RadioButton Content="Na licu mjesta" IsChecked="True" GroupName="Placanje" Margin="20"></RadioButton>
+            <RadioButton Content="Online" IsChecked="False" GroupName="Placanje"></RadioButton>
+        </StackPanel>
+        <Button x:Name="plati" Grid.Row="6" Grid.Column="0" HorizontalAlignment="Center" Content="Plati"></Button>
+        
+    </Grid>
+</Page>
