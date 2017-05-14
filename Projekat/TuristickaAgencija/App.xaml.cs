@@ -68,7 +68,11 @@ namespace TuristickaAgencija
                     // When the navigation stack isn't restored navigate to the first page,
                     // configuring the new page by passing required information as a navigation
                     // parameter
+<<<<<<< HEAD
                     rootFrame.Navigate(typeof(UnosPodataka), e.Arguments);
+=======
+                    rootFrame.Navigate(typeof(View.Placanje), e.Arguments);
+>>>>>>> ae712bf31c87170dac189b38abdd55b1634aff80
                 }
                 // Ensure the current window is active
                 Window.Current.Activate();
