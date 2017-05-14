@@ -21,6 +21,7 @@
         <Image x:Name="image" HorizontalAlignment="Left" Height="517" Margin="819,88,0,0" VerticalAlignment="Top" Width="379" />
         <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="107,451,0,0" TextWrapping="Wrap" Text="Date:" FontSize="30" VerticalAlignment="Top"/>
         <DatePicker HorizontalAlignment="Left" Margin="107,496,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Buy" HorizontalAlignment="Left" Margin="220,583,0,0" VerticalAlignment="Top" Width="76"/>
 
     </Grid>
 </Page>
