@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="TuristickaAgencija.View.Vodic"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TuristickaAgencija.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="90,66,0,0" TextWrapping="Wrap" Text="Iduće putovanje na koje idete:" VerticalAlignment="Top" FontSize="22"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="412,66,0,0" TextWrapping="Wrap" Text="Neko putovanje
+                 " VerticalAlignment="Top" Width="343"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="90,156,0,0" TextWrapping="Wrap" Text="Spisak putnika:" VerticalAlignment="Top" FontSize="22"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="286" Margin="412,156,0,0" VerticalAlignment="Top" Width="343">
+            <ListBoxItem Content="Ahmed Oruč"/>
+            <ListBoxItem Content="Dajana Mojsilović"/>
+            <ListBoxItem Content="Rijad LAG Pedljak" FontSize="20"/>
+            <ListBoxItem Content="Meho Mehić"/>
+            <ListBoxItem Content="Sebija Izetbegović"/>
+        </ListBox>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Spisak fakultativnih izleta:" VerticalAlignment="Top" Margin="90,485,0,0" RenderTransformOrigin="0.653,6.575" FontSize="22"/>
+        <ListBox x:Name="listBox1" HorizontalAlignment="Left" Height="172" Margin="412,485,0,0" VerticalAlignment="Top" Width="343">
+            <ListBoxItem Content="Izlet 1"/>
+            <ListBoxItem Content="Izlet 2"/>
+            <ListBoxItem Content="Izlet 3"/>
+        </ListBox>
+        <AppBarButton x:Name="appBarButton" HorizontalAlignment="Left" Icon="Back" Label="Nazad" Margin="1120,633,0,0" VerticalAlignment="Top" Width="132"/>
+
+    </Grid>
+</Page>
