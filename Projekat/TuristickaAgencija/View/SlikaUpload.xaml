@@ -5,10 +5,9 @@
     xmlns:local="using:TuristickaAgencija.View"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-    d:DesignHeight="278" Width="496.5">
+    mc:Ignorable="d" Width="179.667" Height="255">
 
-    <Grid Margin="0,0,261.667,0" >
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
