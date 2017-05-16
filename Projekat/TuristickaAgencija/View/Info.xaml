@@ -10,7 +10,7 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="Vaša rezervacija važi do **DATUM**, molimo vas da uplatu izvršite do tada" Width="966" Margin="176,285,138,312" FontSize="46
                    "/>
-        <AppBarButton x:Name="appBarButton1" Icon="Back" Label="Back" Click="AppBarButton_Click" Height="70" Margin="902,510,0,0" Width="150" AutomationProperties.SizeOfSet="-1"></AppBarButton>
+        <AppBarButton x:Name="appBarButton1" Icon="Back" Label="Back" Click="appBarButton1_Click" Height="70" Margin="902,510,0,0" Width="150" AutomationProperties.SizeOfSet="-1"></AppBarButton>
 
     </Grid>
 </Page>

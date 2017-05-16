@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TuristickaAgencija.Klase
 {
-    class Osoba
+    public abstract class Osoba
     {
+        public string ime { get; set; }
     }
 }

@@ -26,5 +26,10 @@ namespace TuristickaAgencija.View
         {
             this.InitializeComponent();
         }
+
+        private void appBarButton1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
