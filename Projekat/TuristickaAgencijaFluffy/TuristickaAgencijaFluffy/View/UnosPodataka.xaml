@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="TuristickaAgencija.View.UnosPodataka"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TuristickaAgencija.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="107,69,0,0"  TextWrapping="Wrap" FontSize="30" Text="Choose your way of transport:" VerticalAlignment="Top" Height="52" Width="435"/>
+
+        <RadioButton x:Name="radioButton" Content="Bus" FontSize="25" HorizontalAlignment="Left" VerticalAlignment="Top" Height="57" Width="120" Margin="107,115,0,0"/>
+        <RadioButton x:Name="radioButton1" Content="Train" FontSize="25" HorizontalAlignment="Left" Margin="107,160,0,0" VerticalAlignment="Top" Height="47" Width="120"/>
+        <RadioButton x:Name="radioButton2" Content="Cruiser" FontSize="25" HorizontalAlignment="Left" Margin="107,203,0,0" VerticalAlignment="Top" Height="49" Width="120"/>
+        <RadioButton x:Name="radioButton3" Content="Plane"  FontSize="25" HorizontalAlignment="Left" Margin="107,247,0,0" VerticalAlignment="Top" Height="47" Width="120"/>
+
+        <TextBlock x:Name="textBox" HorizontalAlignment="Left" Margin="107,311,0,0" TextWrapping="Wrap" FontSize="30" Text="How long are you planning to stay:" VerticalAlignment="Top" Width="508"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="107,372,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="49" Width="120" InputScope="Number"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="232,380,0,0" TextWrapping="Wrap" Text="days" VerticalAlignment="Top" FontSize="25" RenderTransformOrigin="0.867,-0.15"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="517" Margin="819,88,0,0" VerticalAlignment="Top" Width="379" />
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="107,451,0,0" TextWrapping="Wrap" Text="Date:" FontSize="30" VerticalAlignment="Top"/>
+        <DatePicker HorizontalAlignment="Left" Margin="107,496,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Buy" HorizontalAlignment="Left" Margin="220,583,0,0" VerticalAlignment="Top" Width="76"/>
+
+    </Grid>
+</Page>

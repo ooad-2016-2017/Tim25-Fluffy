@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="TuristickaAgencija.View.Uposlenik"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TuristickaAgencija.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Spisak putovanja:" VerticalAlignment="Top" Margin="76,52,0,0" FontSize="22" Height="37" Width="187"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="264" Margin="76,94,0,0" VerticalAlignment="Top" Width="439">
+            <Button Content="Breza"/>
+            <Button Content="Visoko"/>
+            <Button Content="Moštre"/>
+            <Button Content="Piramida u Visokom"/>
+        </ListBox>
+        <Button x:Name="button" Content="Izmijeni" HorizontalAlignment="Left" Margin="578,105,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="Obriši" HorizontalAlignment="Left" Margin="578,185,0,0" VerticalAlignment="Top" Width="71"/>
+        <Button x:Name="button2" Content="Dodaj" HorizontalAlignment="Left" Margin="578,275,0,0" VerticalAlignment="Top" Width="71"/>
+        <AppBarButton x:Name="appBarButton" HorizontalAlignment="Left" Icon="Back" Label="Nazad" Margin="1096,618,0,0" VerticalAlignment="Top" Width="139"/>
+
+    </Grid>
+</Page>
