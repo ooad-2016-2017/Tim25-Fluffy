@@ -104,7 +104,11 @@
     <Compile Include="Model\Vodic.cs" />
     <Compile Include="ViewModel\AdminViewModel.cs" />
     <Compile Include="ViewModel\LokacijaViewModel.cs" />
+    <Compile Include="ViewModel\OsobaViewModel.cs" />
+    <Compile Include="ViewModel\PutnikViewModel.cs" />
+    <Compile Include="ViewModel\TuristickaAgencijaViewModel.cs" />
     <Compile Include="ViewModel\UposlenikViewModel.cs" />
+    <Compile Include="ViewModel\VodicViewModel.cs" />
     <Compile Include="View\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
