@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TuristickaAgencija.Model
+namespace TuristickaAgencijaFluffy.Model
 {
     class TuristickaAgencija
     {
